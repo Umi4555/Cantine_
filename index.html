@@ -1,6 +1,6 @@
-
 <html>
 <head>
+  <base href="https://webmenu-demo.vercel.app/">
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -386,6 +386,7 @@
     <div class="login-box">
       <h2>Bienvenue sur le Menu de la Cantine</h2>
       <p>Pour que votre avis soit pris en compte, veuillez vous identifier.</p>
+      
       <form id="loginForm">
         <input type="text" placeholder="Prénom" id="firstName" required>
         <input type="text" placeholder="Nom" id="lastName" required>
@@ -393,7 +394,10 @@
         <button type="button" class="skip-btn" onclick="skipLogin()">Continuer en anonyme</button>
       </form>
     </div>
-  </div>
+  </div> 
+<p>
+<a href="https://umi4555.github.io/Lyc-e/" style="display: inline-block; padding: 5px 10px; font-size: 10px; color: white; background-color: #FF6B6B; border: none; border-radius: 20px; text-decoration: none; cursor: pointer;">Retour à l'acueil</a>
+</p>
 
   <div class="menu-interface">
     <div class="menu-header">
@@ -433,8 +437,10 @@
       <p class="disclaimer">Menu susceptible de modifications selon les approvisionnements</p>
     </div>
   </div>
+  <p>
 
   <button class="login-button" id="loginButton">Se connecter</button>
+ </p>
 
   <script>
     let userIdentity = null;
